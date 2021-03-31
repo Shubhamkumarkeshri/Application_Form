@@ -1,0 +1,127 @@
+<html>
+    <head>
+     <title>
+      Job Application
+     </title>
+     
+     <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+   <u><h1> JOB APPLICATION</h1></u>
+   <hr color="red"><hr color="red"> 
+   <br><br>
+   <form action="insert.php" method="POST" name="form1">
+   <table ALIGN="CENTER">
+   <tr>
+       <td>
+           <label for="fname">First Name</label>
+       </td>
+       <td>
+           <input name="fname" type="text" required />
+       </td>
+   </tr> 
+   <tr>
+       <td>
+           <label for="lname">Last Name</label>
+       </td>
+       <td>
+           <input name="lname" type="text"/> 
+       </td>
+   </tr>
+   <tr>
+       <td><label for="email">Email</label></td>
+       <td><input name="email" type="text" required /></td>
+   </tr> 
+   <tr>
+       <td>
+           <label for="linkedin"> LinkedIn Profile Link</label>
+       </td>
+       <td>
+           <input name="linkedin" type="text" required />
+       </td>
+   </tr>
+    <tr>
+        <td>
+            <label for="drupal">Drupal.org Profile link</label>
+        </td>
+        <td>
+           <input name="drupal" type="text" required />
+        </td>
+    </tr>
+    <tr>
+       <td>
+           <label for="position">Position Applying for</label>
+       </td>
+       <td>
+          <input name="position" type="text" required />
+       </td>
+   </tr>
+   <tr>
+       <td>
+           <label for="start">When can you start?</label>
+       </td>
+       <td>
+          <input name="start" type="text"  required/>
+       </td>
+   </tr>
+   <tr>
+       <td>
+           <label for="mobile">Mobile Number</label>
+       </td>
+       <td>
+          <input name="mobile" type="text" required />
+       </td>
+   </tr>
+   <tr>
+       <td>
+           <label for="ccity">Current City</label>
+       </td>
+       <td>
+          <input name="ccity" type="text"  required/>
+       </td>
+   </tr>
+   <tr>
+       <td>
+           <label for="cname">City Name</label>
+       </td>
+       <td>
+          <input name="cname" type="text" required />
+       </td>
+   </tr>
+   <tr>
+       <td>
+           <label for="relocate">Are you willing to relocate?</label>
+       </td>
+       <td>
+           <input type="radio" name="relocate" value="Yes" checked>Yes
+           <input type="radio" name="relocate" value="No">No
+           <input type="radio" name="relocate" value="Not Sure">Not Sure
+       </td>
+   </tr>
+   <tr>
+       <td>
+           <label for="lcompany">Last company you worked for</label>
+       </td>
+       <td>
+           <input  name="lcompany" type="text"  required placeholder="Write NA, if not applicable"/>
+           
+       </td>
+   </tr>
+   <tr>
+       <td>
+           <label for="comments">Comments</label>
+       </td>
+       <td>
+           <textarea cols="54" rows="10"  name="comments" type="text" ></textarea>
+           
+       </td>
+   </tr>
+   <tr>
+       <td></td>
+       <td><button type="submit" name="submit" onclick="ValidateEmail(document.form1.email)">SUBMIT</button ></td>
+           </tr>
+   </table>
+   </form>
+   <script src="validation.js"></script>
+   </body>
+   </html>

@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(241, 215, 182);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    background-color:rgb(158, 124, 124);
+}
+
+form table tr td {
+    font-size: 25px;
+    width: 300px;
+    padding: 10px;
+}
+
+form table tr input[type="text"]{
+    width: 400px;
+    height:35px;
+    font-size:25px
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    color: rgb(76, 10, 131);
+    background-color: rgb(24, 204, 120);
+    float: right;
+}
